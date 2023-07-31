@@ -6,8 +6,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
-    publicPath: './dist/',
+    path: path.resolve(__dirname, 'docs/dist'),
+    publicPath: './docs/dist/',
     library: "integration",
     libraryExport: 'default',
     libraryTarget: 'umd',
