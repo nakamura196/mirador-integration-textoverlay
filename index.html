@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Basic Mirador</title>
+  </head>
+  <body>
+    <div id="demo"></div>
+    <script src="dist/main.js"></script>
+    <script>
+      function getParams() {
+        var vars = {};
+        var param = location.search.substring(1).split("&");
+        for (var i = 0; i < param.length; i++) {
+          var keySearch = param[i].search(/=/);
+          var key = "";
+          if (keySearch != -1) key = param[i].slice(0, keySearch);
+          var val = param[i].slice(param[i].indexOf("=", 0) + 1);
+          if (key != "") vars[key] = decodeURI(val);
+        }
+
+        return vars;
+      }
+
+      function getWindow(params) {
+        var windowSettings = {
+          textOverlay: {
+            enabled: true,
+            selectable: true,
+            visible: false,
+          },
+        };
+
+        if (params["annotationState"]) {
+          const option = {
+            highlightAllAnnotations: true,
+            sideBarOpen: true,
+            defaultSideBarPanel: "annotations",
+          };
+          for (const key in option) {
+            windowSettings[key] = option[key];
+          }
+        }
+        return windowSettings;
+      }
+
+      function getWindows(params) {
+        var windows = [];
+
+        if (params["manifest"]) {
+          var manifests = params["manifest"];
+          var array = manifests.split(";");
+
+          for (var i = 0; i < array.length; i++) {
+            var manifest = decodeURIComponent(array[i]);
+            var obj = new Object();
+            if (params["canvasId"]) {
+              obj["canvasId"] = params["canvasId"];
+            } else if (params["canvasIndex"]) {
+              obj["canvasIndex"] = params["canvasIndex"];
+            }
+            obj["manifestId"] = manifest;
+            // obj["thumbnailNavigationPosition"] = "far-right";
+            windows.push(obj);
+          }
+        } else {
+          windows.push({
+            manifestId:
+              "https://iiif.wellcomecollection.org/presentation/v2/b18035723",
+            canvasIndex: 7,
+          });
+        }
+
+        return windows;
+      }
+
+      const params = getParams();
+
+      const { Mirador, textOverlayPlugin } = integration;
+      const config = {
+        id: "demo",
+        window: getWindow(params),
+        windows: getWindows(params),
+      };
+      Mirador.viewer(config, [...textOverlayPlugin]);
+    </script>
+  </body>
+</html>
