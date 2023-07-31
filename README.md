@@ -15,7 +15,7 @@ You will likely need to have at least the following dependencies available in yo
  - `mirador`
  - `react`
  - `react-dom`
- - `mirador-image-tools` - A plugin just to test plugin integration
+ - `mirador-textoverlay` - A plugin just to test plugin integration
 
 ### Webpack
 
