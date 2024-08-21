@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-2.xsd">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>e0bfa986-5f52-11ef-bf71-0242ac1c000c_0001.xml</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR_1">
+			<ocrProcessingStep>
+				<processingDateTime>2024-08-21T09:18:52.701211+09:00</processingDateTime>
+				<processingAgency>Google Colaboratory</processingAgency>
+				<processingStepSettings>{"add_info": false, "config_file": "config.yml", "input_dirs": ["/content/docs/files/e0bfa986-5f52-11ef-bf71-0242ac1c000c"], "input_root": "/content/docs/files/e0bfa986-5f52-11ef-bf71-0242ac1c000c", "input_structure": "s", "kotenseki_reading_order": {"checkpoint_path": "src/kotenseki_reading_order/models/kotenseki_reading_order_model.joblib"}, "ndl_kotenseki_layout": {"checkpoint_path": "src/ndl_kotenseki_layout/models/ndl_kotenseki_layout_ver3.pth", "config_path": "src/ndl_kotenseki_layout/models/ndl_kotenseki_layout_config_v3.py", "device": "cuda:0", "score_thr": 0.001}, "output_root": "/content/drive/MyDrive/ndlkotenocr_v2/output/image_url_2024-08-21T09:18:23.440609+09:00", "partial_infer": false, "proc_range": {"end": 2, "start": 0}, "text_kotenseki_recognition": {"accept_empty": true, "batch_size": 16, "device": "cuda:0", "saved_ocr_model": "src/text_kotenseki_recognition/model-ver2/kotenseki-trocr-honkoku-ver2", "saved_preprocessor_model": "src/text_kotenseki_recognition/model-ver2/trocr-base-preprocessor", "saved_tokenize_model": "src/text_kotenseki_recognition/model-ver2/decoder-roberta-v3"}}</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>National Diet Library</softwareCreator>
+					<softwareName>NDLOCR</softwareName>
+					<softwareVersion>2.1</softwareVersion>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Layout>
+		<Page ID="Page_1" PHYSICAL_IMG_NR="1">
+			<PrintSpace ID="PrintSpace_1">
+				<TextBlock ID="TextBlock_1">
+					<TextLine HEIGHT="129" HPOS="3560" ID="TextLine_1" VPOS="434" WIDTH="154">
+						<String CONTENT="八" HEIGHT="129" HPOS="3560" ID="Word_1" VPOS="434" WIDTH="154" />
+					</TextLine>
+					<TextLine HEIGHT="112" HPOS="3781" ID="TextLine_2" VPOS="439" WIDTH="117">
+						<String CONTENT="の" HEIGHT="112" HPOS="3781" ID="Word_2" VPOS="439" WIDTH="117" />
+					</TextLine>
+					<TextLine HEIGHT="134" HPOS="3658" ID="TextLine_3" VPOS="616" WIDTH="145">
+						<String CONTENT="の" HEIGHT="134" HPOS="3658" ID="Word_3" VPOS="616" WIDTH="145" />
+					</TextLine>
+					<TextLine HEIGHT="205" HPOS="3319" ID="TextLine_4" VPOS="2467" WIDTH="380">
+						<String CONTENT="同日" HEIGHT="205" HPOS="3319" ID="Word_4" VPOS="2467" WIDTH="380" />
+					</TextLine>
+					<TextLine HEIGHT="2005" HPOS="2805" ID="TextLine_5" VPOS="595" WIDTH="241">
+						<String CONTENT="いつれの御時にか女御更衣あまた" HEIGHT="2005" HPOS="2805" ID="Word_5" VPOS="595" WIDTH="241" />
+					</TextLine>
+					<TextLine HEIGHT="1979" HPOS="2590" ID="TextLine_6" VPOS="611" WIDTH="193">
+						<String CONTENT="さふらひ給けるなかにいとやむこ" HEIGHT="1979" HPOS="2590" ID="Word_6" VPOS="611" WIDTH="193" />
+					</TextLine>
+					<TextLine HEIGHT="2019" HPOS="2356" ID="TextLine_7" VPOS="582" WIDTH="194">
+						<String CONTENT="となきゝはにはあらぬかすく龍亭" HEIGHT="2019" HPOS="2356" ID="Word_7" VPOS="582" WIDTH="194" />
+					</TextLine>
+					<TextLine HEIGHT="2011" HPOS="2089" ID="TextLine_8" VPOS="603" WIDTH="216">
+						<String CONTENT="時そき給ふ有けりはしめより我" HEIGHT="2011" HPOS="2089" ID="Word_8" VPOS="603" WIDTH="216" />
+					</TextLine>
+					<TextLine HEIGHT="2018" HPOS="1842" ID="TextLine_9" VPOS="605" WIDTH="201">
+						<String CONTENT="はとおもひあかり給へる御かため" HEIGHT="2018" HPOS="1842" ID="Word_9" VPOS="605" WIDTH="201" />
+					</TextLine>
+					<TextLine HEIGHT="2038" HPOS="1595" ID="TextLine_10" VPOS="600" WIDTH="211">
+						<String CONTENT="さましき物もおとしめそねみ給ふ" HEIGHT="2038" HPOS="1595" ID="Word_10" VPOS="600" WIDTH="211" />
+					</TextLine>
+					<TextLine HEIGHT="2019" HPOS="1350" ID="TextLine_11" VPOS="600" WIDTH="201">
+						<String CONTENT="おなしほとそのこる下らうの更衣" HEIGHT="2019" HPOS="1350" ID="Word_11" VPOS="600" WIDTH="201" />
+					</TextLine>
+					<TextLine HEIGHT="2000" HPOS="1124" ID="TextLine_12" VPOS="603" WIDTH="195">
+						<String CONTENT="た地はましてやすからす朝夕" HEIGHT="2000" HPOS="1124" ID="Word_12" VPOS="603" WIDTH="195" />
+					</TextLine>
+					<TextLine HEIGHT="2034" HPOS="868" ID="TextLine_13" VPOS="588" WIDTH="208">
+						<String CONTENT="の雲つかへにつけても人の心をうこ" HEIGHT="2034" HPOS="868" ID="Word_13" VPOS="588" WIDTH="208" />
+					</TextLine>
+					<TextLine HEIGHT="2038" HPOS="641" ID="TextLine_14" VPOS="590" WIDTH="178">
+						<String CONTENT="かし浪をおふつもりにやありけむ" HEIGHT="2038" HPOS="641" ID="Word_14" VPOS="590" WIDTH="178" />
+					</TextLine>
+				</TextBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

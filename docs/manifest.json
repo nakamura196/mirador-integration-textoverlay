@@ -1,0 +1,45 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "e0bfa986-5f52-11ef-bf71-0242ac1c000c",
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3800,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                            "resource": {
+                                "@id": "https://dl.ndl.go.jp/api/iiif/2585098/R0000003/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3800,
+                                "width": 6507
+                            }
+                        }
+                    ],
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/mirador-integration-textoverlay/canvases/0001.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
+                    "seeAlso": {
+                        "@id": "https://nakamura196.github.io/mirador-integration-textoverlay/canvases/0001.xml",
+                        "format": "text/xml",
+                        "label": "METS-ALTO XML",
+                        "profile": "http://www.loc.gov/standards/alto/v4/alto.xsd"
+                    },
+                    "width": 6507
+                }
+            ]
+        }
+    ]
+}

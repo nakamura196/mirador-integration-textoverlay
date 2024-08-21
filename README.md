@@ -1,6 +1,6 @@
 ## Integrating Mirador
 
-[![pages-build-deployment](https://github.com/nakamura196/mirador-integration-textoverlay/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/nakamura196/mirador-integration-textoverlay/actions/workflows/pages/pages-build-deployment)
+[![Node.js CI](https://github.com/nakamura196/mirador-integration-textoverlay/actions/workflows/node.js.yml/badge.svg)](https://github.com/nakamura196/mirador-integration-textoverlay/actions/workflows/node.js.yml)
 
 This repository is designed to show integrating Mirador 3 with modern frontend build systems.
 
@@ -12,10 +12,10 @@ https://github.com/ProjectMirador/mirador-integration
 
 You will likely need to have at least the following dependencies available in your `package.json`.
 
- - `mirador`
- - `react`
- - `react-dom`
- - `mirador-textoverlay` - A plugin just to test plugin integration
+- `mirador`
+- `react`
+- `react-dom`
+- `mirador-textoverlay` - A plugin just to test plugin integration
 
 ### Webpack
 
@@ -23,3 +23,4 @@ See `webpack.config.js` for a basic webpack setup for Mirador 3 + a plugin.
 
 ```sh
 npm run webpack
+```

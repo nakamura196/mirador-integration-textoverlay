@@ -1,0 +1,329 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvases/0001.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "a_0_3560_434_154_129",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:0】八"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 3560 434 L 3714 434 L 3714 563 L 3560 563 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "a_1_3781_439_117_112",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:1】の"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 3781 439 L 3898 439 L 3898 551 L 3781 551 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "a_2_3658_616_145_134",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:2】の"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 3658 616 L 3803 616 L 3803 750 L 3658 750 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "a_3_3319_2467_380_205",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:3】同日"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 3319 2467 L 3699 2467 L 3699 2672 L 3319 2672 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "a_4_2805_595_241_2005",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:4】いつれの御時にか女御更衣あまた"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 2805 595 L 3046 595 L 3046 2600 L 2805 2600 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "a_5_2590_611_193_1979",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:5】さふらひ給けるなかにいとやむこ"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 2590 611 L 2783 611 L 2783 2590 L 2590 2590 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "a_6_2356_582_194_2019",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:6】となきゝはにはあらぬかすく龍亭"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 2356 582 L 2550 582 L 2550 2601 L 2356 2601 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "a_7_2089_603_216_2011",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:7】時そき給ふ有けりはしめより我"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 2089 603 L 2305 603 L 2305 2614 L 2089 2614 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "a_8_1842_605_201_2018",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:8】はとおもひあかり給へる御かため"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 1842 605 L 2043 605 L 2043 2623 L 1842 2623 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "a_9_1595_600_211_2038",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:9】さましき物もおとしめそねみ給ふ"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 1595 600 L 1806 600 L 1806 2638 L 1595 2638 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "a_10_1350_600_201_2019",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:10】おなしほとそのこる下らうの更衣"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 1350 600 L 1551 600 L 1551 2619 L 1350 2619 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "a_11_1124_603_195_2000",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:11】た地はましてやすからす朝夕"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 1124 603 L 1319 603 L 1319 2603 L 1124 2603 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "a_12_868_588_208_2034",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:12】の雲つかへにつけても人の心をうこ"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 868 588 L 1076 588 L 1076 2622 L 868 2622 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "a_13_641_590_178_2038",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "【本文:13】かし浪をおふつもりにやありけむ"
+            },
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "http://localhosthttps://nakamura196.github.io/mirador-integration-textoverlay/canvas/p1",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M 641 590 L 819 590 L 819 2628 L 641 2628 Z' stroke=\"green\" /></g></svg>"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
